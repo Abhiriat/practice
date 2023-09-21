@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-istok-web: "Istok Web";
+    --font-jacques-francois-shadow: "Jacques Francois Shadow";
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkviolet: #b800f8;
+  
+    /* border radiuses */
+    --br-30xl: 49px;
+  }
+  

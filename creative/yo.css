@@ -1,0 +1,50 @@
+/* body{
+    margin: 0;
+}
+.div1,.div2{
+    height: 100vh;
+}
+.div1{
+    background-color: pink;
+}
+.div2{
+    background-color:salmon;
+} */
+.square{
+    height: 20vh;
+    width: 150px;
+    background-color:blue;
+}
+/* .red{
+    background-color: red;
+}
+.square2{
+    height: 20vh;
+    width: 150px;
+    background-color: red;
+} */
+.div1{
+    height: 100vh;
+    background-color:pink;
+}
+/* .panel-red{
+    background-color: red;
+} */
+nav{
+    position: sticky;
+    background-color: rgb(169, 63, 6);
+    color: white;
+    top: 0;
+    transition: all 600ms ease-in-out;
+
+}
+ul{
+    position: sticky;
+}
+.nav-active{
+    background-color: white;
+    color: rgb(169, 63, 6);
+}
+.full{
+    height: 100vh;
+}

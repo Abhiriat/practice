@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            background-color:#ffde59;
+            width: 750px;
+            border: 1px solid yellow;
+            border-radius: 60px;
+            height: 140px;
+
+        
+        }
+        #img1{
+            width: 105px;
+            margin-left: 25px;
+            margin-top: 20px;
+            transition: opacity 1s ease-in-out;
+        }
+
+
+            
+        
+        #img2{
+            width: 105px;
+            margin-left: 475px;
+            margin-top: 20px;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+       <img class="img1" id="img1" src="egg1.png" onclick="my()">
+        <img class="img2" id="img2" src="egg.png"  onclick="my1()">
+
+    </div>
+    <script>
+        function my(){
+            document.getElementById("img2").style.opacity=1;
+            document.getElementById("img1").style.opacity=0;
+
+        }
+        function my1(){
+            document.getElementById("img2").style.opacity=0;
+            document.getElementById("img1").style.opacity=1;
+
+        }
+    </script>
+    
+</body>
+</html>
